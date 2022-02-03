@@ -1,5 +1,30 @@
 # Spring notes
 
+- [Spring Core](#)
+   - [Spring configuration](#spring-configuration)
+     - [Interfaces recommended for Spring beans](#interfaces-recommended-for-spring-beans)
+     - [XML Spring Configuration](#xml-spring-configuration)
+       - [Constructor Injection](#constructor-injection)
+       - [Setter Injection](#setter-injection)
+       - [Collections - List, Set, Map ](#collections)
+       - [util namespace to deal with collections](#util-namespace-to-deal-with-collections)
+    - [Using Bean Factories](#using-bean-factories)
+      - [factory-method](#factory-method)
+      - [factory-bean](#factory-bean)
+      - [Bean Definition Inheritance](#bean-definition-inheritance)
+    - [Application Context](#application-context)
+    - [The lifecycle of a Spring bean](#the-lifecycle-of-a-spring-bean)
+      - [BeanFactoryPostProcessor](#beanfactorypostprocessor)
+      - [BeanPostProcessor](#beanpostprocessor)
+    - [Initializing beans priority](#initializing-beans-priority)
+    - [Bean scopes](#bean-scopes)
+    - [Java Spring Configuration and Annotations](#java-spring-configuration-and-annotations)
+- [Spring Microservices with Spring Cloud](#spring-microservices-with-spring-cloud)
+
+
+
+
+
 [>> https://docs.spring.io/spring/docs/5.0.3.RELEASE](https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/index.html)
 
 ![alt text](images/Screenshot_4.png "Screenshot_3")
